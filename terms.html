@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms of Service - Lao QR Parser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em auto;
+      max-width: 800px;
+      padding: 0 1em;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #004d40;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Terms of Service</h1>
+  <p><strong>Effective Date:</strong> <span id="current-date"></span></p>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By downloading, installing, or using Lao QR Parser ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+
+  <h2>2. Description of Service</h2>
+  <ul>
+    <li>QR code scanning and decoding</li>
+    <li>Text recognition (OCR) from images</li>
+    <li>QR code generation</li>
+    <li>Local storage of scan history</li>
+    <li>Multi-language support for text recognition</li>
+  </ul>
+
+  <h2>3. User Responsibilities</h2>
+  <ul>
+    <li>Use the App in compliance with all applicable laws</li>
+    <li>Do not use the App for illegal purposes</li>
+    <li>Do not reverse engineer, modify, or distribute the App</li>
+    <li>Respect intellectual property rights of others</li>
+  </ul>
+
+  <p>You acknowledge that:</p>
+  <ul>
+    <li>You are responsible for scanned/generated content</li>
+    <li>App processes data locally</li>
+    <li>Scan accuracy may vary with lighting/image quality</li>
+  </ul>
+
+  <h2>4. Privacy and Data</h2>
+  <ul>
+    <li>All processing happens on-device</li>
+    <li>We do not collect, store, or transmit your data</li>
+    <li>Camera is used only for scanning/OCR</li>
+    <li>Scan history stays local and can be deleted anytime</li>
+    <li>See our <a href="privacy.html">Privacy Policy</a> for more info</li>
+  </ul>
+
+  <h2>5. Intellectual Property</h2>
+  <ul>
+    <li>App and original content belong to the developer</li>
+    <li>You retain ownership of your scanned/created content</li>
+    <li>Third-party code follows their licenses</li>
+  </ul>
+
+  <h2>6. Disclaimers</h2>
+  <p>The App is provided "AS IS". No warranties for:</p>
+  <ul>
+    <li>Scan result accuracy</li>
+    <li>Device compatibility</li>
+    <li>Error-free usage</li>
+    <li>Security of scanned/generated content</li>
+  </ul>
+
+  <h2>7. Limitation of Liability</h2>
+  <ul>
+    <li>No liability for indirect or consequential damages</li>
+    <li>Not liable for data loss or business interruption</li>
+    <li>Not liable for misuse of scan content</li>
+  </ul>
+
+  <h2>8. Third-Party Services</h2>
+  <p>We are not responsible for any third-party content accessed through scanned QR codes or links.</p>
+
+  <h2>9. Updates and Changes</h2>
+  <p>We may update the App or these Terms at any time. Continued use after updates means you accept the changes.</p>
+
+  <h2>10. Termination</h2>
+  <p>You may uninstall the App anytime. We may restrict usage for violations of these Terms.</p>
+
+  <h2>11. Geographic Limitations</h2>
+  <p>The App is intended for Laos and Southeast Asia. Features may vary by region.</p>
+
+  <h2>12. Support and Contact</h2>
+  <ul>
+    <li>Email: <a href="mailto:pjeycw@gmail.com">pjeycw@gmail.com</a></li>
+    <li>GitHub: <a href="https://github.com/pjeicw/">https://github.com/pjeicw/</a></li>
+  </ul>
+
+  <h2>13. Governing Law</h2>
+  <p>These Terms follow the laws of Lao PDR. Disputes go to its courts.</p>
+
+  <h2>14. Severability</h2>
+  <p>If any clause is invalid, the rest stay enforceable.</p>
+
+  <footer>
+    <p>Last Updated: <span id="current-date-2"></span></p>
+  </footer>
+
+  <script>
+    const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    document.getElementById('current-date').textContent = today;
+    document.getElementById('current-date-2').textContent = today;
+  </script>
+</body>
+</html>
